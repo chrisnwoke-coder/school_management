@@ -81,11 +81,11 @@
 
         <div class = "first-content-1" data-aos="fade-up"  data-aos-delay="50"  data-aos-duration="2000">
 
-            <a href="#" class = "student-login">Student Login<i class = "fa fa-arrow-right"></i></a>
+            <a href="../public/user_student.php" class = "student-login">Student Login<i class = "fa fa-arrow-right"></i></a>
 
-            <a href="#" class = "teacher-login">Teacher Login<i class = "fa fa-arrow-right"></i></a>
+            <a href="../public/user_teacher.php" class = "teacher-login">Teacher Login<i class = "fa fa-arrow-right"></i></a>
 
-            <a href="#" class = "teacher-login">Admin Login<i class = "fa fa-arrow-right"></i></a>
+            <a href="../admin/login.php" class = "teacher-login">Admin Login<i class = "fa fa-arrow-right"></i></a>
 
         </div>
 
@@ -117,6 +117,12 @@
 </div><!--end of header-container-->
 
 
+
+
+<!---school Progress--->
+
+<div class="body-container-school-progress">
+
 <div class = "body-container">
 
 
@@ -124,8 +130,8 @@
         <div class = "image-content-1"></div>
 
          <div class = "second-content-1">
-        <h1 class = "paragraph">3,000</h1>
-        <p class = "paragraph-1">success stories </p>
+        <h1 class = "purecounter-1">540</h1>
+        <p class = "paragraph-1">Success Stories </p>
      </div>
 
 </div>
@@ -134,8 +140,8 @@
         <div class = "image-content-2"></div>
 
         <div class = "second-content-1">
-        <h1 class = "paragraph">320</h1>
-        <p class = "paragraph-1">trusted tutors</p>
+        <h1 class = "purecounter-2">320</h1>
+        <p class = "paragraph-1">Trusted tutors</p>
      </div>
 
 </div>
@@ -144,8 +150,8 @@
         <div class = "image-content-3"></div>
 
         <div class = "second-content-1">
-        <h1 class = "paragraph">1,000</h1>
-        <p class = "paragraph-1">schedules</p>
+        <h1 class = "purecounter-3">1,000</h1>
+        <p class = "paragraph-1">Student</p>
      </div>
 
   </div>
@@ -154,26 +160,32 @@
        <div class = "image-content-4"></div>
 
        <div class = "second-content-1">
-        <h1 class = "paragraph">587</h1>
-        <p class = "paragraph-1">courses</p>
+        <h1 class = "purecounter-4">587</h1>
+        <p class = "paragraph-1">Courses</p>
      </div>
 
   </div>
 
 </div><!---end of body-container-->
 
+</div><!--end of school progress-->
+
+<!--end of school progress-->
+
+
+
 
 
 <!---courses-->
 
-<div class = "course" id = "course"> 
+<div class = "body-container-1">
+
+ <div class = "course" id = "course"> 
         
         <h1 class = "hr-lines"> OUR COURSES </h1> 
         
 </div>
 
-
-<div class = "body-container-1">
 
     <div class ="course-info">
 
@@ -502,6 +514,11 @@
 
 
 
+<!---school-info--->
+
+<div class="body-container-school-info">
+
+
     <div class ="body-container-2">
 
         <div class="school-info">
@@ -514,12 +531,12 @@
         <div class="school-info">
 
             <div class="school-info-content">
-                <div class="school-info-content-1" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500" data-aos-once="true">
+                <div class="school-info-content-1" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1500" data-aos-once="true">
                     <div class="sch-icon"></div>
                     <h1>Interactive Content</h1>
                     <p>far far away behind the word mountains far from the countries vokalika and consonantia,there live the blind texts.</p>
                 </div>
-                <div class="school-info-content-1"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
+                <div class="school-info-content-1"  data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
                 <div class="sch-icon-2"></div>
                     <h1>Get 100% free Access</h1>
                     <p>far far away behind the word mountains far from the countries vokalika and consonantia,there live the blind texts.</p>
@@ -528,12 +545,12 @@
             </div><!--end of school-info-content-->
 
             <div class="school-info-content">
-                <div class="school-info-content-1" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500" data-aos-once="true">
+                <div class="school-info-content-1" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1500" data-aos-once="true">
                 <div class="sch-icon-3"></div>
                     <h1>Certification</h1>
                     <p>far far away behind the word mountains far from the countries vokalika and consonantia,there live the blind texts.</p>
                 </div>
-                <div class="school-info-content-1"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
+                <div class="school-info-content-1"  data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
                 <div class="sch-icon-4"></div>
                     <h1>Offline Usage</h1>
                     <p>far far away behind the word mountains far from the countries vokalika and consonantia,there live the blind texts.</p>
@@ -544,7 +561,15 @@
 
     </div><!--end of body-container-2-->
 
-    <!--end of Courses-->
+</div><!--end of body-container-school-info-->
+
+
+<!--end of school info-->
+
+
+
+
+<!---Services---->
 
     <div class = "course" id = "service"> 
         
@@ -641,6 +666,9 @@
 <!--end of services-->
 
 
+
+
+
 <!--teams-->
 <div class="body-container-teams">
 
@@ -707,11 +735,24 @@
 
 <!---footer-->
     <div class="footer">
+
         <div class="footer-1">
+
             <div class="footer-1-1">
+
                 <h1>Ekiti State University</h1>
                 <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+
+
+             <div class="footer-header">
+             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+             <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+             <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+             </div>
+
             </div>
+
 
             <div class="footer-1-1">
                 <h1>Useful Links</h1>
@@ -722,6 +763,7 @@
                 <a href="#">Blog</a>
             </div>
 
+
             <div class="footer-1-1">
                 <h1>Our Services</h1>
                 <a href="#">Job Opportunities</a>
@@ -731,19 +773,22 @@
                 <a href="#">Digital Marketing</a>
             </div>
 
+
             <div class="footer-1-1">
                 <h1>Contact Us</h1>
                 <p>Block 412 Adam Street,Apatha Natha OPP Airtel Mask</p>
-                <p><strong>phone:</strong>09060527112</p>
-                <p><strong>email:</strong>chijiokechristopher17@gmail.com</p>
+                <p><strong>Phone:</strong>09060527112</p>
+                <p><strong>Email:</strong>chijiokechristopher17@gmail.com</p>
             </div>
 
-        </div>
+        </div><!--end of footer-1-->
                 
         <div class="footer-1">
             <p>&copy Copyright Ekiti State University All Rights Reserved </p>
             <p>Developed by Nwoke Chijioke Christopher</p>
-        </div>
+        </div><!--end of footer-1-->
+
+
     </div><!--end of footer-->
 <!--end of footer-->
 
@@ -751,8 +796,8 @@
 
 <!---veendor Aos javascript-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<script type = "text/javascript" src = "../script/dash.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+<script type="text/javascript" src = "../script/dash.js"></script>
 
 </body>
 

@@ -1,7 +1,7 @@
 <?php
 session_start();
 include("../include/db.php");
-include("../include/admin_auth.php");
+include("../include/user_student_auth.php");
 
 $stmt = $conn->prepare("SELECT * FROM result WHERE student_id=:id");
 $stmt->bindParam(":id",$_SESSION['student_id']);
